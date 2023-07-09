@@ -1,11 +1,11 @@
  **2.AVR Architecture and Assembly Language Programming by ATMEGA 328p Arduino Uno**
 
 **_2.0 Total Reviews for AVR's CPU_**
- 
-![2a](https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/be93074e-b5b3-46d3-af0a-ce0f013ade72)
 
+ ![2a](https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/aa4873d6-5954-4b95-9f4d-2057ad826e52)
 
-![2a1](https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/022a2438-ee10-4d3d-9005-532129b7220e)
+![2a1](https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/b0a162ae-90fb-4f41-8d35-8f3cf0561a0b)
+
 
 - _The AVR CPU_ consists of several key elements:
 
@@ -100,7 +100,8 @@
 
 **2.1 General Purpose Registers in the AVR**
 
-<img width="303" alt="gprs_alu" src="https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/db2ff3f7-73ac-4636-b760-b75d72ddcb35">
+
+<img width="303" alt="gprs_alu" src="https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/de915dd0-2205-495b-885b-a28dfee768a8">
 
 
 - In AVR microcontrollers, the general-purpose registers are a set of 32 registers labeled as R0 to R31.
@@ -113,7 +114,7 @@ Here are some key points about the general-purpose registers in AVR:
 
 1.Data Storage: 
 
-![datasto](https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/41b9ced9-2b94-40ef-bfaa-4dc93ecbafba)
+![datasto](https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/95019ecd-949d-415d-8fab-34285fa4779f)
 
 
 - The general-purpose registers are used to **store data during program execution.** 
@@ -136,9 +137,11 @@ Here are some key points about the general-purpose registers in AVR:
 
 <img width="354" alt="alu1" src="https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/a6029f48-ac20-4d43-b00f-bd91600b06d7">
 
-![alu3](https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/5fa527fc-95aa-45f0-bce8-d638fdf8e744)
+![alu3](https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/9e29c44f-d502-45f0-8955-10f3d65f2d33)
 
-![alu4](https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/821f6b2a-a2c0-42ba-b999-2957cb0cb888)
+![alu4](https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/041bc303-6125-4e65-8925-50a764a15061)
+
+
 
 
 - The ALU (Arithmetic Logic Unit) performs arithmetic and logical operations on data stored in the general-purpose registers.
@@ -160,11 +163,14 @@ Here are some key points about the general-purpose registers in AVR:
 - While all general-purpose registers are available for use by programmers, some registers have specific purposes or conventions associated with them.
 
 -   For example, R0 is typically used as "a zero register", R1 is often used as the "stack pointer", and R16 to R31 are often used for general "data storage".
--   
-![ldi](https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/fcd29576-0de3-4ce7-b829-288127982017)
+  
+
+![ldi](https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/f49d2181-f244-42aa-ad48-3e8a14de06c4)
 
 
-![operation](https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/3a5e1b4b-da07-4ec3-a250-fb4948c4fab8)
+![operation](https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/9efb33af-d444-451d-9a28-069a34482701)
+
+
 
 **2.2 Data Address space**
 
@@ -206,9 +212,11 @@ _3.Internal Data SRAM:_ The Internal Data SRAM serves as a larger storage area f
 
 **LDS instruction**
 
-<img width="324" alt="lds0" src="https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/75e6b4a3-b309-4c58-849c-9e4bff2deb5d">
+<img width="324" alt="lds0" src="https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/cd7c548d-65eb-4aaa-a3f6-9c55b1b3c646">
 
-<img width="325" alt="lds" src="https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/1ecae4b2-0026-4a0b-aeb1-59f28db524e2">
+
+<img width="325" alt="lds" src="https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/5dc473df-6353-45ba-9d8a-cd5f885bd314">
+
 
 
 - The LDS instruction allows you to load a value from a specific memory address into a register for further processing or manipulation.
@@ -217,7 +225,7 @@ _3.Internal Data SRAM:_ The Internal Data SRAM serves as a larger storage area f
 
 **The STS instruction**
 
-<img width="327" alt="sts" src="https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/fb8c1221-7727-41a2-9db9-328501ae59d5">
+<img width="327" alt="sts" src="https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/1895bab1-d87b-4812-94b8-f8c06244211c">
 
 
 - Allows you to store the value from a register into a specified memory location in data memory.
@@ -225,14 +233,16 @@ _3.Internal Data SRAM:_ The Internal Data SRAM serves as a larger storage area f
 - It is commonly used to update the value of a global variable or write data to a specific memory location.
 
 **IN instruction**
+<img width="305" alt="in" src="https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/c522b80c-2045-4437-8548-bb6054828fef">
 
-<img width="305" alt="in" src="https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/7dcf1654-fb76-45a5-8a91-102831b8740c">
 
-<img width="337" alt="in_vs_lds" src="https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/0417273c-3222-4206-a09d-b2aa09c9b0c7">
+<img width="337" alt="in_vs_lds" src="https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/38baa595-eebb-4657-9b38-11ee118d8a70">
+
 
 **more**
 
-<img width="280" alt="more" src="https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/46b120fe-9aa7-4923-b595-13db894f9ba9">
+<img width="280" alt="more" src="https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/4e4bc4d7-bdbc-4eac-b2e9-94d33a3fadac">
+
 
 **2.4**
 
