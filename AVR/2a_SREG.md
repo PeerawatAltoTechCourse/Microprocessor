@@ -53,5 +53,12 @@ So , there are D0-D7
 
 ![sreg5](https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/ac3e2655-5f03-45c3-a254-34d4c917c28a)
 
+![sreg2](https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/28e5024a-c82d-4aab-8999-4f4effa694ac)
+
+![sreg3](https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/0c83cbb0-8a7f-4308-ace2-65ca22b2c105)
+
+![sreg4](https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/fc5fdb5e-d9b0-46b3-b4c6-6dd2043c9eac)
+
+
 
  
