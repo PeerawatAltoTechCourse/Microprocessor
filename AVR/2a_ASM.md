@@ -63,6 +63,12 @@ _3.Operands:_
 
 _4.Comment:_ 
 
-- Comments are ignored by the assembler and are meant for human readers. 
+- Comments are ignored by the assembler and are meant for human readers.
+
+![asm](https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/7aed96de-ae50-4640-9854-8143f7a52367)
+
+
+<img width="437" alt="asm2" src="https://github.com/PeerawatAltoTechCourse/Microprocessor/assets/132571902/19e7dd5e-1bd2-4b55-9de3-4c138f414dc9">
+
 
 
