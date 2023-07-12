@@ -16,6 +16,8 @@ The start label is followed by a subroutine call to *initLED*, which initializes
 
 R17 is *loaded* with the value 0 (*LDI* R17, 0x00).
 
+R17 is used for shift location (noticed by "INC R17" instruction)
+
 The program *enters a loop* labeled loop2.
 
 Within the loop, it calls the subroutine outputLED.
