@@ -43,6 +43,8 @@ R16 is loaded with the value 0xFF (LDI R16, 0xFF).
 
 The value in R16 is then *output to the DDRA port* using the *OUT* instruction.
 
+DDRA = Data Direction Register , $A is located at Port A
+
 R16 is restored by popping its value from the stack.
 
 The subroutine returns using the RET instruction.
